@@ -1,0 +1,118 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+
+.container img {
+  position: absolute;
+  width: 350px;
+  right: 1130px;
+}
+
+.container h1 {
+  position: relative;
+  top: 90px;
+  font-weight: 600;
+}
+
+.container p {
+  position: relative;
+  top: 70px;
+  font-weight: 600;
+}
+
+.login {
+  height: 100vh;
+}
+
+.form-login input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 900px;
+  top: 225px;
+
+  background: #f2eeff;
+  border-radius: 20px;
+}
+
+.form-password input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 900px;
+  top: 295px;
+
+  background: #f2eeff;
+  border-radius: 20px;
+}
+
+.login a {
+  position: absolute;
+  width: 212px;
+  height: 36px;
+  left: 1165px;
+  top: 365px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 36px;
+  color: #888888;
+}
+
+.register {
+  height: 100vh;
+}
+
+.register img {
+  position: absolute;
+  width: 350px;
+  right: 1130px;
+}
+
+.register h1 {
+  position: relative;
+  top: 90px;
+  font-weight: 600;
+  left: 110px;
+}
+
+.register p {
+  position: relative;
+  top: 70px;
+  font-weight: 600;
+  left: 110px;
+}
+
+.register-form input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 900px;
+  top: 225px;
+
+  background: #f2eeff;
+  border-radius: 20px;
+}
+
+.register-form-email input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 900px;
+  top: 295px;
+
+  background: #f2eeff;
+  border-radius: 20px;
+}
+
+.register-form-password input {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 900px;
+  top: 365px;
+
+  background: #f2eeff;
+  border-radius: 20px;  
+}
