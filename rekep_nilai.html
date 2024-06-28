@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekap Nilai Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/rekap.css" />
+  </head>
+
+  <body class="vh-100">
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-lg-2 vh-100 sidebar">
+          <div class="d-flex align-items-center p-3 mb-4">
+            <img src="img/profil.svg" alt="logo" class="logo mr-3" />
+            <div class="text-white text-logo">
+              <h2>Nama Dosen</h2>
+              <p>Nomor Induk Dosen</p>
+            </div>
+          </div>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="dashboard.html"
+              >
+                <img src="img/list.svg" alt="" />Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="tambahdata.html"
+              >
+                <img src="img/plus-circle.svg" alt="" />Tambah Data
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="rekapnilai.html"
+              >
+                <img src="img/clipboard-data.svg" alt="" />Rekap Nilai
+              </a>
+            </li>
+          </ul>
+          <ul class="nav flex-column">
+            <li class="nav-item out">
+              <a class="nav-link active" aria-current="page" href="#">
+                <img src="img/box-arrow-right.svg" alt="" />Keluar
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <main class="container col-md-10 ms-sm-auto col-lg-10 px-md-4 p-4">
+          <div class="box1 border">
+            <h2>Semester - Genap TA. 2023/2024</h2>
+          </div>
+          <h1 class="text-black mt-5 mb-5">Rekap Nilai</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Mata Kuliah</th>
+                <th>Sifat</th>
+                <th>SKS</th>
+                <th>Nilai</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Gibransyah Agung Kusuma</td>
+                <td>23.01.5002</td>
+                <td>Web Development</td>
+                <td>Konsentrasi</td>
+                <td>4</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>Gibransyah Agung Kusuma</td>
+                <td>23.01.5002</td>
+                <td>Keamanan Data dan Informasi</td>
+                <td>Wajib</td>
+                <td>4</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>Gibransyah Agung Kusuma</td>
+                <td>23.01.5002</td>
+                <td>Statistika</td>
+                <td>Wajib</td>
+                <td>2</td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <td>Gibransyah Agung Kusuma</td>
+                <td>23.01.5002</td>
+                <td>Aljabar Linier</td>
+                <td>Wajib</td>
+                <td>2</td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <td>Gibransyah Agung Kusuma</td>
+                <td>23.01.5002</td>
+                <td>Bahasa Inggris</td>
+                <td>Wajib</td>
+                <td>2</td>
+                <td>A</td>
+              </tr>
+
+              <!-- Menambahkan baris lainnya sesuai kebutuhan -->
+            </tbody>
+          </table>
+
+          <div
+            class="IPK text-ipk"
+            style="text-align: center; margin-top: 50px"
+          >
+            <h3>Indek Prestasi Komulatif:</h3>
+            <h4>3.50</h4>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+html,
+body {
+  overflow: hidden;
+  /* Menghilangkan scroll pada halaman utama */
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  background-color: #7e3b88;
+}
+
+.logo {
+  width: 110px;
+  height: auto;
+  margin: 0;
+  margin-left: -10px;
+}
+
+.text-logo h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.text-logo p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.nav {
+  font-size: 20px;
+}
+
+.nav-item {
+  padding-top: 15px;
+}
+
+.nav-link img {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.box1 {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #b95ac8;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}

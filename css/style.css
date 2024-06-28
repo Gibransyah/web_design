@@ -114,5 +114,69 @@
   top: 365px;
 
   background: #f2eeff;
-  border-radius: 20px;  
+  border-radius: 20px;
 }
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dashboard-status {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-status-icon {
+  margin-right: 10px;
+}
+
+.dashboard-nav {
+  margin-top: 20px;
+}
+
+.dashboard-nav-item {
+  margin-bottom: 10px;
+}
+
+.dashboard-nav-link {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.dashboard-nav-link:hover {
+  background-color: #eee;
+}
+
+.dashboard-content {
+  margin-top: 20px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.dashboard-table th {
+  text-align: left;
+  background-color: #f0f0f0;
+}
+
